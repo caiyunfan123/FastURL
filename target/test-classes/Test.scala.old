@@ -1,0 +1,32 @@
+package cyf.test
+
+import cyf.utils.FastURL
+
+import scala.actors.Actor
+
+/**
+  * 测试结果：
+  * 0.无论是懒汉式还是饿汉单例模式，只要设置在object类中就都是全局单例。使用局部单例可以放置实例对象到线程外使用。
+  * 1.未使用局部单例时，100万条url的解析分为两个线程运行，耗时各26秒，比单线程时，单个执行50万快4秒
+  * 2.使用局部单例时，双线程运行各50万耗时各28秒，比使用多例模式还要多消耗2秒。
+  * 结论：使用全局单例大幅提升速度，使用局部单例效率不如直接使用局部多例，可能是构建该实例所需的资源太少。
+  */
+class Test(id: Int,url:String) extends Actor{
+  val fastURL = FastURL(url)
+  override def act(): Unit = {
+    val start = System.currentTimeMillis()
+    (1 to 1000).foreach(_=>FastURL(url).putIPtoMap("1.2.3.4", false).putAgentToMap("b_iev").remove("b_iev").toJsonString)
+    println(System.currentTimeMillis()-start)
+  }
+}
+
+object Test{
+  def main(args: Array[String]): Unit = {
+    val url = "192.168.30.2^A1563797574.259^Amaster^A/web/index.html?en=e_crt&oid=123460&on=%E6%B5%8B%E8%AF%95%E8%AE%A2%E5%8D%95123460&cua=1&cut=%24&pt=alipay&ver=1&pl=website&sdk=js&u_ud=BD8C4842-F5E3-4F0C-99DE-05DA244ED8C9&u_sd=87661021-76AA-4492-839E-FA7E012DFA90&c_time=1563797574950&l=zh-CN&b_iev=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F74.0.3729.169%20Safari%2F537.36&b_rst=1280*720"
+    val url2 = "192.168.30.2^A1563797574.259^Amaster^A/web/index.html?en=e_crt&oid=123460&on=%E6%B5%8B%E8%AF%95%E8%AE%A2%E5%8D%95123460&cua=2&cut=%24&pt=alipay&ver=1&pl=website&sdk=js&u_ud=BD8C4842-F5E3-4F0C-99DE-05DA244ED8C9&u_sd=87661021-76AA-4492-839E-FA7E012DFA90&c_time=1563797574950&l=zh-CN&b_iev=Mozilla%2F5.0%20(Windows%20NT%206.1%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F74.0.3729.169%20Safari%2F537.36&b_rst=1600*900"
+    val a = new Test(1,url)
+    val b = new Test(2,url2)
+    a.start()
+    b.start()
+  }
+}

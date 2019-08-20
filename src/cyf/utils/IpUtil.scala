@@ -1,14 +1,13 @@
 package cyf.utils
-
 import scala.io.Source
-import IpUtil._
 
 //ip解析的最终版本，精简化API
 class IpUtil private(ipBase:Map[Array[Int],String]){
   val start = System.currentTimeMillis()
-  def select(ip: String) ={implicit val ipArr = toIpArr(ip);if(ipGroup.contains((ipArr(0),ipArr(1))))find(ipGroup((ipArr(0),ipArr(1))))(1) else find(ipBase)(0)}
+  def select(ip: String) ={implicit val ipArr = IpUtil.toIpArr(ip);if(ipGroup.contains((ipArr(0),ipArr(1))))IpUtil.find(ipGroup((ipArr(0),ipArr(1))))(1) else IpUtil.find(ipBase)(0)}
   private val ipGroup:Map[(Int,Int),Map[Array[Int],String]] =ipBase.groupBy(f=>(f._1(0),f._1(1)))
 }
+
 object IpUtil{
   private var ipDatabase:IpUtil = null
   private def toIpArr = (f: String) => for (str <- f.split("\\.")) yield str.toInt
