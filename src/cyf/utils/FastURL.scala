@@ -21,7 +21,7 @@ class FastURL(url:String){
   def putAnytoMapByFunction(anyOrKey:String,isWithin:Boolean)(f:String=>Map[String,String])={if(isWithin) map.get(anyOrKey) match {case Some(agent)=>this++=f(agent) case None =>this} else this++=f(anyOrKey)}
   def empty={map=map.empty;this}
   def remove(key:String)=this-=key
-  def -=(key:String)={map-key;this}
+  def -=(key:String)={map-=key;this}
   def +=(key:String,value:String)={map+=((key,value));this}
   def ++=(traversableOnce: TraversableOnce[(String,String)]) = {map++= traversableOnce;this}
 }
