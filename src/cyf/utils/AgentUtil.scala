@@ -19,18 +19,18 @@ class AgentUtil(agent: String) extends MapUtil{
   private lazy val browserMap=AgentUtil.getBrowserMap(agent)++=AgentUtil.getVersionMap(agent)
   private lazy val OSMap=AgentUtil.getOsMap(agent)
 
-  def setBrowserName(newKey:String)=setMap("bro_name",newKey)(browserMap)
-  def setBrowserType(newKey:String)=setMap("bro_type",newKey)(browserMap)
-  def setBrowserGroup(newKey:String)=setMap("bro_group",newKey)(browserMap)
-  def setBrowserManu(newKey:String)=setMap("bro_manu",newKey)(browserMap)
-  def setOSName(newKey:String)=setMap("os_name",newKey)(OSMap)
-  def setOSType(newKey:String)=setMap("os_type",newKey)(OSMap)
-  def setOSGroup(newKey:String)=setMap("os_name",newKey)(OSMap)
-  def setOSManu(newKey:String)=setMap("os_manu",newKey)(OSMap)
-  def setEngine(newKey:String)=setMap("engine",newKey)(browserMap)
-  def setVersion(newKey:String)=setMap("version",newKey)(browserMap)
-  def setSelf(key:String)={outMap+=((key,agent));this}
-  def setOthers={super.setOthers(browserMap,OSMap);this}
+  def addBrowserName(implicit newKey:String="bro_name")=putToMap("bro_name",newKey)(browserMap)
+  def addBrowserType(implicit newKey:String="bro_type")=putToMap("bro_type",newKey)(browserMap)
+  def addBrowserGroup(implicit newKey:String="bro_group")=putToMap("bro_group",newKey)(browserMap)
+  def addBrowserManu(implicit newKey:String="bro_manu")=putToMap("bro_manu",newKey)(browserMap)
+  def addOSName(implicit newKey:String="os_name")=putToMap("os_name",newKey)(OSMap)
+  def addOSType(implicit newKey:String="os_type")=putToMap("os_type",newKey)(OSMap)
+  def addOSGroup(implicit newKey:String="os_name")=putToMap("os_name",newKey)(OSMap)
+  def addOSManu(implicit newKey:String="os_manu")=putToMap("os_manu",newKey)(OSMap)
+  def addEngine(implicit newKey:String="engine")=putToMap("engine",newKey)(browserMap)
+  def addVersion(implicit newKey:String="version")=putToMap("version",newKey)(browserMap)
+  def addSelf(implicit key:String="agent")={outMap+=((key,agent));this}
+  def addOthers={super.addOthers(browserMap,OSMap);this}
 
-  private def setMap(oldKey:String,newKey:String)(map:mutable.Map[String,String])={putOneToMap(oldKey,newKey)(map);this}
+  private def putToMap(oldKey:String,newKey:String)(map:mutable.Map[String,String])={putOneToMap(oldKey,newKey)(map);this}
 }

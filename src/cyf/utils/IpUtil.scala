@@ -6,14 +6,14 @@ import IpUtil._
 
 class IpUtil(ip:String)(implicit ipRegex:(String)=>mutable.Map[String,String]) extends MapUtil{
   private val ipMap=select(ip)
-  def setCountry(newKey:String)=setMap("country",newKey)
-  def setRegion(newKey:String)=setMap("region",newKey)
-  def setCity(newKey:String)=setMap("city",newKey)
-  def setIsp(newKey:String)=setMap("isp",newKey)
-  def setSelf(newKey:String)={outMap+=((newKey,ip));this}
-  def setOthers= {super.setOthers(ipMap);this}
+  def addCountry(implicit newKey:String="country")=putToMap("country",newKey)
+  def addRegion(implicit newKey:String="region")=putToMap("region",newKey)
+  def addCity(implicit newKey:String="city")=putToMap("city",newKey)
+  def addIsp(implicit newKey:String="isp")=putToMap("isp",newKey)
+  def addSelf(implicit key:String="ip")={outMap+=((key,ip));this}
+  def addOthers= {super.addOthers(ipMap);this}
 
-  private def setMap(oldKey:String,newKey:String)={putOneToMap(oldKey,newKey)(ipMap);this}
+  private def putToMap(oldKey:String,newKey:String)={putOneToMap(oldKey,newKey)(ipMap);this}
   private def select(ip: String) ={
     implicit val ipArr = toIpArr(ip)
     ipRegex(

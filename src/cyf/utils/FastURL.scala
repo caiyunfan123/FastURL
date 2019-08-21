@@ -23,7 +23,7 @@ class FastURL(url:String)(implicit URLRegex:(String)=>TraversableOnce[(String,St
 
 object FastURL{
   implicit def URLRegex(url:String)="[?&]([^&]*)=([^&]*)".r.findAllIn(URLDecoder.decodeURIComponent(url)).map(f=>(f.split("=")(0).substring(1),f.split("=")(1)))
-  implicit val ipUtil=(ip:String)=>IpUtil(ip).setOthers
-  implicit val agentUtil=(agent:String)=>AgentUtil(agent).setOthers
+  implicit val ipUtil=(ip:String)=>IpUtil(ip).addOthers
+  implicit val agentUtil=(agent:String)=>AgentUtil(agent).addOthers
   def apply(url: String)=new FastURL(url)
 }
