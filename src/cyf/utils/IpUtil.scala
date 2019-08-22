@@ -1,10 +1,9 @@
 package cyf.utils
 
 import scala.collection.mutable
-import scala.io.Source
-import IpUtil._
+import IpUtil.toIpArr
 
-class IpUtil(ip:String)(implicit ipRegex:(String)=>mutable.Map[String,String]) extends MapUtil{
+class IpUtil(ip:String)(implicit ipDataBase: IpDataBase,ipRegex:(String)=>mutable.Map[String,String]) extends MapUtil{
   private val ipMap=select(ip)
   def addCountry(implicit newKey:String="country")=putToMap("country",newKey)
   def addRegion(implicit newKey:String="region")=putToMap("region",newKey)
@@ -17,8 +16,8 @@ class IpUtil(ip:String)(implicit ipRegex:(String)=>mutable.Map[String,String]) e
   private def select(ip: String) ={
     implicit val ipArr = toIpArr(ip)
     ipRegex(
-      if(ipGroup.contains((ipArr(0),ipArr(1)))) find(ipGroup((ipArr(0),ipArr(1))))(1)
-      else find(ipBase)(0)
+      if(ipDataBase.ipGroup.contains((ipArr(0),ipArr(1)))) find(ipDataBase.ipGroup((ipArr(0),ipArr(1))))(1)
+      else find(ipDataBase.ipBase)(0)
     )
   }
   private def find(ipMap:Map[Array[Int],String])(index:Int)(implicit ipArr:Array[Int]): String ={
@@ -28,9 +27,7 @@ class IpUtil(ip:String)(implicit ipRegex:(String)=>mutable.Map[String,String]) e
   }
 }
 object IpUtil{
-  private def toIpArr = (f: String) => for (str <- f.split("\\.")) yield str.toInt
-  private lazy val ipBase = Source.fromURL(getClass.getResource("/resource/ipDataBase.txt")).getLines().map(f=>(toIpArr(f.split("\\s+")(0)),f)).toMap
-  private lazy val ipGroup = ipBase.groupBy(f=>(f._1(0),f._1(1)))
+  private[utils] def toIpArr = (f: String) => for (str <- f.split("\\.")) yield str.toInt
   private implicit val ipRegex = (strIn:String) => {
     val in = strIn.split("\\s+");
     def getMap(str: String*) = mutable.Map("country"->str(0),"region"->str(1),"city"->str(2),"isp"->str(3));
@@ -43,7 +40,7 @@ object IpUtil{
       case isSpecial(region,city) =>getMap("中国",region,city,in(3))
       case _ =>getMap("中国",null,in(2),in(3))}
   }
-  def apply(ip: String)={
+  def apply(ip: String)(implicit ipDataBase:IpDataBase=IpDataBase.ipDataBase)={
     if(!ip.matches("[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}")) throw new RuntimeException("ip格式错误")
     new IpUtil(ip)
   }

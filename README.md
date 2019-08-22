@@ -1,7 +1,9 @@
 # FastURL
 以FastURL为主的快速解析工具
 基于scala2.10版本，打包后java也可以使用
-目前进度：2.0
+目前进度：2.2
+2.1---优化了API
+2.2---解耦了IP数据库，新FastURL支持用IP数据库实例来创建，支持广播IP数据库实例。
 
 FastURL ： URL的解析工具，实例内采用链式方法，获得实例后多次执行方法后用.toMap或.toJsonString收尾。
 使用案例：String json = FastURL(urlString).putIPtoMap("1.2.3.4", false).putAgentToMap("b_iev").remove("b_iev").toJsonString
