@@ -3,25 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="06885d1b-7994-41e2-8aca-bccdbdfcc4ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URLUtils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/URLUtils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cyf/utils/FastURL.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyf/utils/FastURL.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyf/utils/IpDataBase.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyf/utils/IpDataBase.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cyf/utils/IpUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyf/utils/IpUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyf/utils/MapUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyf/utils/MapUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/pojo/IP$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/pojo/IP$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/pojo/IP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/pojo/IP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/AgentUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/AgentUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/AgentUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/AgentUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$URLRegex$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$URLRegex$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$putAgentToMap$default$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$putAgentToMap$default$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$putIPtoMap$default$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$putIPtoMap$default$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$renames$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$$anonfun$renames$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/FastURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpDataBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$cyf$utils$IpUtil$$ipBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$cyf$utils$IpUtil$$ipGroup$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$cyf$utils$IpUtil$$toIpArr$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$cyf$utils$IpUtil$$toIpArr$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$find$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$find$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$toIpArr$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$toIpArr$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$toIpArr$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$$anonfun$toIpArr$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/IpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil$$anonfun$addOthers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil$$anonfun$addOthers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil$class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil$class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cyf/utils/MapUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cyf/test/Test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cyf/test/Test$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,12 +89,15 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cyf/utils/FastURL.scala">
+        <entry file="file://$PROJECT_DIR$/src/cyf/utils/IpUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="414">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding>
+                <element signature="e#19#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,13 +143,13 @@
         <option value="$PROJECT_DIR$/test/Test.scala" />
         <option value="$PROJECT_DIR$/src/cyf/utils/test.java" />
         <option value="$PROJECT_DIR$/src/cyf/utils/nIp.scala" />
-        <option value="$PROJECT_DIR$/test/test.scala" />
-        <option value="$PROJECT_DIR$/src/cyf/utils/AgentUtil.scala" />
-        <option value="$PROJECT_DIR$/src/cyf/utils/MapUtil.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/cyf/utils/IpUtil.scala" />
-        <option value="$PROJECT_DIR$/src/cyf/utils/IpDataBase.scala" />
+        <option value="$PROJECT_DIR$/src/cyf/utils/AgentUtil.scala" />
         <option value="$PROJECT_DIR$/src/cyf/utils/FastURL.scala" />
+        <option value="$PROJECT_DIR$/src/cyf/utils/MapUtil.scala" />
+        <option value="$PROJECT_DIR$/src/cyf/utils/IpDataBase.scala" />
+        <option value="$PROJECT_DIR$/test/test.scala" />
+        <option value="$PROJECT_DIR$/src/cyf/utils/IpUtil.scala" />
       </list>
     </option>
   </component>
@@ -163,8 +182,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-140" />
-    <option name="y" value="6" />
+    <option name="x" value="454" />
+    <option name="y" value="20" />
     <option name="width" value="933" />
     <option name="height" value="827" />
   </component>
@@ -176,8 +195,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,25 +219,16 @@
             <path>
               <item name="FastURL" type="b2602c69:ProjectViewProjectNode" />
               <item name="FastURL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cyf" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FastURL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FastURL" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FastURL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FastURL" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastURL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,7 +242,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.52705884" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -321,7 +332,7 @@
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2966321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24676166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,7 +356,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32966322" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.28562176" />
       <window_info anchor="right" id="Database" order="5" weight="0.32966322" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -501,24 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/ipDataBase.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/collection/mutable/Map.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Program Files/Java/jdk-8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
-          <folding>
-            <element signature="e#82616#82617#0" expanded="true" />
-            <element signature="e#82667#82668#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,66 +541,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cyf/utils/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/cyf/pojo/IP.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="107" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/cyf/utils/URLDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <folding>
-            <element signature="e#0#2693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cyf/utils/AgentUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-          <folding>
-            <element signature="e#18#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cyf/utils/MapUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#19#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cyf/utils/IpUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#19#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/cyf/utils/URLDecoder.class" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.7-sources.jar!/scala/runtime/BooleanRef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -625,17 +563,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cyf/utils/IpDataBase.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="92">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyf/pojo/IP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/myProgram/maven/repository/org/scala-lang/scala-library/2.10.7/scala-library-2.10.7-sources.jar!/scala/Boolean.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/myProgram/scala-2.11.12/source2.11.12/src/library/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/myProgram/maven/repository/org/scala-lang/scala-library/2.10.7/scala-library-2.10.7-sources.jar!/scala/collection/MapLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="112" column="15" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk-8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="2119" column="19" selection-start-line="2119" selection-start-column="19" selection-end-line="2119" selection-end-column="19" />
+          <folding>
+            <element signature="e#82616#82617#0" expanded="true" />
+            <element signature="e#82667#82668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/ipDataBase.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="2691">
+          <caret line="132" column="43" lean-forward="true" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cyf/utils/FastURL.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyf/utils/AgentUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#18#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyf/utils/MapUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#19#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyf/utils/IpDataBase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="120" column="37" lean-forward="true" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cyf/utils/IpUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +703,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.10.7</last-edited>
+          <last-edited>scala-sdk-2.11.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
